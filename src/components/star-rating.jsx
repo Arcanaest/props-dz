@@ -6,8 +6,8 @@ const StarRating = ({ rating }) => {
   for (let i = 0; i < 5; i++) {
     if (i < rating) {
       stars.push("★");
-    }else if (i < rating) {
-      stars.push("☆"); 
+    } else if (i < rating) {
+      stars.push("☆");
     }
   }
 
